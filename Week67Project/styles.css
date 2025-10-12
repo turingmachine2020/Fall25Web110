@@ -1,0 +1,98 @@
+/* 
+  Name: Andy Denekas
+  Date: 10/12/25
+  File: styles.css
+*/
+
+/* Global Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('images/background.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+/* Main Content */
+main {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: url('images/logo.png') no-repeat right;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #29485d;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #ff5733;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h3 {
+    color: #29485d;
+}
+
+/* List Styles */
+ul {
+    list-style-image: url('images/marker.gif');
+}
+
+li {
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 20px;
+    background-color: white;
+    width: 20%;
+    margin: auto;
+}
+
+/* Special Classes */
+.web {
+    font-weight: bold;
+    color: red;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #c7b2ae;
+}
+
+/* Images */
+.attraction-image {
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px grey;
+}
