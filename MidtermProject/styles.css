@@ -1,0 +1,126 @@
+/* 
+  Name: Andy Denekas
+  Date: 10/26/25
+  Subject: styles.css - Portfolio Website
+*/
+
+/* ===== GLOBAL RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY STYLES ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* ===== WRAPPER ===== */
+#wrapper {
+  width: 80%;
+  max-width: 960px;
+  margin: 2% auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== HEADER ===== */
+header {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #0077b6;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #0077b6;
+}
+
+header .tagline {
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+  background-color: #0077b6;
+  padding: 5px 0;
+  margin-bottom: 2%;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 2%;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+  padding: 2%;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  color: #0077b6;
+  margin-bottom: 0.5em;
+}
+
+/* ===== LISTS ===== */
+ul, ol {
+  margin-left: 2em;
+  margin-top: 0.5em;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+/* ===== IMAGE ===== */
+img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 2px solid #0077b6;
+  font-size: 0.9em;
+  color: #555;
+  background-color: #f8f8f8;
+}
+
+/* ===== LINKS ===== */
+a {
+  color: #0077b6;
+}
+
